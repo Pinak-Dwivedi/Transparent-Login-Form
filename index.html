@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transparent Login Form</title>
+
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link rel="apple-touch-icon" href="./images//apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <main class="main" data-main>
+      <section class="container" data-container>
+        <form class="form" data-form>
+          <h1 class="heading" data-heading>Welcome</h1>
+
+          <div class="form-controls" data-form-controls>
+            <div class="form-field" data-form-field>
+              <label for="email" class="form-label" data-form-label
+                >Email</label
+              >
+
+              <input
+                type="text"
+                name="email"
+                id="email"
+                class="form-input"
+                data-form-email-input
+              />
+
+              <span class="form-error" data-email-error></span>
+            </div>
+
+            <div class="form-field" data-form-field>
+              <label for="password" class="form-label" data-form-label
+                >Password</label
+              >
+
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form-input"
+                data-form-password-input
+              />
+
+              <span class="form-error" data-password-error></span>
+            </div>
+
+            <button type="submit" class="form-button" data-form-button>
+              Login
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
